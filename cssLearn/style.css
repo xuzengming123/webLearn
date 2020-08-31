@@ -1,4 +1,8 @@
+/*
+1、css基础语法
+*/
 p{
-    color: bisque;
-    font-size:55px;
+    color:  rgb(27, 172, 216);
+    font-size: 55px;
+    text-align: center;
 }
