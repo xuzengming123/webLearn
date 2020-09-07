@@ -1,0 +1,32 @@
+body{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+
+p#first{
+    white-space: normal;
+    text-indent: 2em;
+    font-family: Georgia;
+    font-style: oblique;
+}
+
+p#second{
+    text-indent: 2em;
+    white-space: normal;
+    font-family: monospace;
+}
+
+p#third{
+    text-indent: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p#fourth{
+    font-variant: small-caps;
+}
+
+p#fiveth{
+    font-weight: bolder;
+}
