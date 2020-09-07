@@ -1,9 +1,0 @@
-/* h1,h2,h3,h4{
-    color:red;
-} */
-/* 最高级元素拥有的属性 */
-body,h1{
-    color:red;
-    font-size: 29px;
-    font-weight: normal;
-}
