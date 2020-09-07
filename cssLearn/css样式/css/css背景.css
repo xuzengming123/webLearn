@@ -1,0 +1,11 @@
+p.one{
+    background-color: red;
+    padding: 20px;
+}
+
+p.two,a{
+    background-image: url(../../../practice/img/watercolor.png);
+    background-repeat: repeat-x;
+}
+
+

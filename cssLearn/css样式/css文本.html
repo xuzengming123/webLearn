@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/css文本.css">
+</head>
+
+<body>
+    <!-- 
+        
+        1、缩进文本
+            - text-indent
+                1、使用该属性，块元素的第一行可以缩进一个给定元素，甚至负值
+                2、该属性不对行内元素生效  
+                3、可以使用左内边距和外边距创造这种效果
+                4、使用负值会造成第一行悬挂在元素中余下部分的左边
+                5、使用百分比数值要相对于父元素的宽度
+                    div {width: 500px;}
+                    p {text-indent: 20%;}
+                    上面缩进值是父元素的20%，即100个像素
+                6、text_indent属性可以被继承
+        
+        2、水平对齐
+            - text-align
+                1、center 居中
+                2、left 左对齐
+                3、right 右对齐
+        
+        3、字间隔
+            - word-spacing(词间距，添加每个单词之间的空白)
+                1、接受一个正长度值或负长度值。正的会增加字间隔，负的会拉近
+            - letter-spacing(字间距，添加每个字母或汉字之间的空白)
+        
+        4、字符转换
+            - text-transform
+                - none
+                - uppercase    定义仅有大写字母。
+                - lowercase    定义无大写字母，仅有小写字母。
+                - capitalize   文本中的每个单词以大写字母开头。
+
+        5、文本装饰
+            - text-decoration
+                - none
+                - underline     对元素添加下划线
+                - overline      对元素添加上划线
+                - line-through  对元素添加贯穿线
+                - blink         让文本闪烁（很多浏览器是不支持这个属性值的）
+
+        6、处理空白符
+            - white-space
+                - normal    忽略多余的空白符
+                - pre       空白符不会被忽略，IE7以前不支持
+                - nowarp    禁止文本中的元素换行，除非使用</br>
+                - pre-warp  保留空白符和换行符，文本会正常换行
+                - pre-line  忽略空白符，但是保留换行符，文本会正常换行
+
+     -->
+    <p>
+        床前明月光，疑是地上霜<br>
+        举头望明月，低头思故乡哈哈哈<br>
+        this is a dog
+        THIS IS A DOG
+        this IS A DoG
+    </p>
+</body>
+
+</html>
