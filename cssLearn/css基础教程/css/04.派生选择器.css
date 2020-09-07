@@ -1,0 +1,12 @@
+li strong{
+    font-weight: normal;
+    font-style: italic;
+}
+
+p strong.second,h2{
+    color: red;
+}   
+
+h2 strong{
+    color: blue;
+}

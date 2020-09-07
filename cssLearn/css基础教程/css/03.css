@@ -1,0 +1,11 @@
+/* h1,h2,h3,h4{
+    color:red;
+} */
+/* 最高级元素拥有的属性 */
+body{
+    color:red;
+    font-size: 29px;
+    font-weight: normal;
+    background: url(../../practice/img/loge.jpg) no-repeat fixed top left;
+    text-indent: 6em;
+}

@@ -1,0 +1,15 @@
+#sidebar p {
+    font-style: italic;
+    color: red;
+    text-align: right;
+    margin-top: 0.5em;
+}
+
+#sidebar h2{
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.5;
+    text-align: right;
+}

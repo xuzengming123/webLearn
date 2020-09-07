@@ -1,0 +1,14 @@
+/*
+1、css基础语法
+*/
+body{
+    background-image: url(../practice/img/watercolor.png);
+    background-repeat: repeat;
+}
+p{
+    color:  rgb(27, 172, 216);
+    font-size: 45px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
