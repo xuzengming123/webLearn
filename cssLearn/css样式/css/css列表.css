@@ -1,0 +1,8 @@
+ul#black-rount-dot{
+    list-style-type: square;
+    /* 上面的声明把无序列表中的列表项标志设置为方块 */
+}
+ul#img_icon{
+    list-style-image: url(../../../practice/img/light.jpg);
+    list-style-position: inside;
+}
