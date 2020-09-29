@@ -1,0 +1,10 @@
+
+p#first{
+    border: red solid thin;
+    outline: greenyellow dotted thick;
+}
+p#second{
+    border: red solid thin;   
+    outline-style: dotted;
+    outline-color: blueviolet;
+}

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/css表格.css">
 </head>
 
 <body>
@@ -12,6 +13,46 @@
     <p>每个表格有table标签开始</p>
     <p>每个表格行由tr标签开始</p>
     <p>每个表格数据由td标签开始</p>
+
+    <table id="customers">
+        <tr>
+            <th>Comapany</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Aplle</td>
+            <td>Steven Jobs</td>
+            <td>USA</td>
+        </tr>
+        <tr class="alt">
+            <td>Baidu</td>
+            <td>Li YanHong</td>
+            <td>China</td>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>Larry Page</td>
+            <td>USA</td>
+        </tr>
+        <tr class="alt">
+            <td>Lenovo</td>
+            <td>Liu Chuanzhi</td>
+            <td>China</td>
+        </tr>
+        <tr>
+            <td>Microsoft</td>
+            <td>Bill Gates</td>
+            <td>USA</td>
+        </tr>
+        <tr class="alt">
+            <td>Nokia</td>
+            <td>Stephen Elop</td>
+            <td>Finland</td>
+        </tr>
+    </table>
+
+    <hr>
 
     <h4>一列：</h4>
     <table border="1">
@@ -44,7 +85,7 @@
     </table>
 
     <h4>表头</h4>
-    <table border="1">
+    <table border="1" id="first">
         <tr>
             <th>班级</th>
             <th>姓名</th>
